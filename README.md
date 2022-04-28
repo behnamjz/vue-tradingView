@@ -13,7 +13,7 @@ npm install vue-tradingView
 
 ```vue
 <template>
-  <vue-trading-view :options="chartOptions"></countup>
+  <vue-tradingView :options="chartOptions"></vue-tradingView>
 </template>
 
 <script>
