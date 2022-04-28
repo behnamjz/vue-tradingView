@@ -28,7 +28,7 @@ npm install vue-tradingView
             width: 980,
             height: 600,
             hide_top_toolbar: true,
-            interval: 240 // thats mean's 4h //
+            interval: 240 // that's mean 4h //
         }
       }
     }
@@ -45,9 +45,7 @@ npm install vue-tradingView
 | interval | set time-based bar interval (1m[1] - 1h[60] - 1D[D] - 1W[W] - 1Y[Y]) | String | D |
 | allow_symbol_change | allow to change symbol | Boolean | true |
 | callendar | show callendar | Boolean | false |
-.
-.
-.
+...
 
 for more options can see [this page](https://www.tradingview.com/widget/advanced-chart/) for the TradingView Advanced Real-Time Chart API.
 
