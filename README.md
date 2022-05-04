@@ -1,25 +1,25 @@
-# vue-tradingView
+# vue-tradingchart
 > It's a Trading view chart component for Vue and Nuxt.
 
-vue-tradingView is a dependency-free, lightweight vue component that can be overwrited by yourself.
+vue-tradingchart is a dependency-free, lightweight vue component that can be overwrited by yourself.
 It is support vue-ssr.
 
 ### How to use?
 ```bash
-npm install vue-tradingView
+npm install vue-tradingchart
 ```
 
 ### Example
 
 ```vue
 <template>
-  <vue-tradingView :options="chartOptions"></vue-tradingView>
+  <vue-trading-chart :options="chartOptions"></countup>
 </template>
 
 <script>
-  import vuetradingView from 'vue-tradingView';
+  import vuetradingchart from 'vue-tradingchart';
   export default {
-    components: { countUp },
+    components: { vuetradingchart },
     data () {
       return {
         chartOptions: {
